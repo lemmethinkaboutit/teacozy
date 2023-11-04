@@ -1,0 +1,135 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.5;
+}
+
+/* Navigation */
+
+nav{
+   height: 69px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 5;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 50px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul li a {
+    color: seashell;
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+/* Header */
+
+header {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* Featured tea section */
+
+#featured-tea {
+    width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.featured-text h4 {
+    margin-top: 5px;
+}
+
+.item1 img {
+    width: 300px;
+    height: 200px;
+}
+
+.featured-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    margin-left: 10px;
+    
+}
+
+.item1 h4 {
+    margin-top: 10px;
+}
+
+/* location */
+
+#locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    margin: 10px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loc {
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+
+.text-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.text-boxes {
+    background-color: black;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* footer */
+.contact {
+    text-align: center;   
+}
+
+.copyright {
+    margin-left: 10px; 
+    text-align: left;   
+}
+
+
+
